@@ -41,10 +41,10 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'sigedatabase.mysql.database.azure.com'),
+            'host' => env('DB_HOST', 'erp-sige.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'sige'),
-            'username' => env('DB_USERNAME', 'braulley@sigedatabase'),
+            'username' => env('DB_USERNAME', 'braulley@erp-sige'),
             'password' => env('DB_PASSWORD', 'erp@2018'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
